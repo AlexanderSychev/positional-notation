@@ -7,8 +7,13 @@
   "author": "Alexander Sychev",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexanderSychev/positional-notation.git"
+  },
   "scripts": {
     "rebuild": "yarn clean && yarn build",
+    "prepublish": "yarn rebuild && yarn test",
     "build": "yarn run compile && yarn run bundle:library && yarn run bundle:test",
     "compile": "tsc",
     "bundle:library": "webpack --config webpack.config.js",
