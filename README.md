@@ -1,4 +1,4 @@
-# positional-notation
+# node-positional-notation
 
 Simple library to convert numbers between any positional number systems with radixes from 2 to 36.
 
@@ -6,9 +6,9 @@ Simple library to convert numbers between any positional number systems with rad
 
 ```bash
 # By Yarn
-yarn add positional-notation --save
+yarn add node-positional-notation --save
 # Or by NPM
-npm install positional-notation --save
+npm install node-positional-notation --save
 ```
 
 All entities below can exported from module's root.
