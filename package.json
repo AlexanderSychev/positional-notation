@@ -1,5 +1,5 @@
 {
-  "name": "positional-notation",
+  "name": "node-positional-notation",
   "version": "1.0.0",
   "description": "Positional number notations converter",
   "main": "dist/index.js",
