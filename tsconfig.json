@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "lib": [
+            "es6",
+            "esnext"
+        ],
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "target": "ES5",
+        "baseUrl": "./@types",
+        "typeRoots": [
+            "./node_modules/@types",
+            "./@types"
+        ]
+    },
+    "exclude": ["./node_modules", "./dist"],
+    "include": ["./src/**/*.ts"]
+}

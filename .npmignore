@@ -1,0 +1,7 @@
+!dist/
+!lib/
+src/
+webpack.config.js
+test.config.js
+tsconfig.json
+tslint.json
